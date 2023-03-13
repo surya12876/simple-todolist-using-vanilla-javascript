@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+background: rgb(66,97,255);
+background: linear-gradient(90deg, rgba(66,97,255,1) 8%, rgba(252,70,86,1) 100%);
+color: white;
+font-family: 'Poppins', sans-serif;
+min-height: 10rem;
+
+}
+header{
+    font-size: 1.5rem;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input ,form button{
+    padding: 1rem;
+    font-size: 2rem;
+    background: white;
+    border: none;
+}
+form button{
+    color:rgba(176, 30, 255, 0.997);
+    cursor: pointer; 
+}
+form button:hover{
+    background-color: rgba(176, 30, 255, 0.997);
+    color: whitesmoke;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.list{
+    list-style: none;
+   min-width:34%;
+   
+}
+.todo{
+    margin: 1rem;
+    display: flex;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo li{
+    flex: 1;
+    
+}
+.trashbtn , .donebtn{
+    padding: 3rem;
+   background-color: rgba(176, 30, 255, 0.997) ;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+.donebtn{
+    background-color:red;
+    
+}
+.todo-item{
+    padding:  1rem ;
+}
+.donebtn2{
+    background-color: green;
+    color: aliceblue;
+    
+}
